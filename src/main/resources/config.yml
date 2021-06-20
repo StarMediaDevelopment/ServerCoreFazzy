@@ -1,0 +1,159 @@
+# This is the Config file for the Core plugin
+# Almost every single message will be customizable here!
+
+# Location for /spawn
+# No /setspawn command(yet)
+spawn:
+  world: "world"
+  x: 0.500
+  y: 0
+  z: 0.500
+  yaw: 90
+  pitch: 0
+
+# ALL MESSAGES ARE HERE!
+# Sent when the executer isn't a player
+must-be-player: '&cYou must be a player to execute this command!'
+
+# Sent when player is not online
+player-not-online: '&cThis player is not online!'
+
+# Sent when a player is not found
+player-not-found: '&cPlayer not found!'
+
+# Message sent when a player doesn't have permission to execute
+# a Command
+no-permission: '&cYou do not have permission to execute this command!'
+
+# Option for changing Fly toggle messages
+fly-true: '&eFly has been set to &aTrue'
+fly-false: '&eFly has been set to &cFalse'
+
+# /fspeed Format
+fspeed-format: '&e/fspeed &7(speed) <Number between 0.1-1> <Default speed is 0.1>'
+# Sent to player when they change their fly speed
+set-fspeed: '&eYou have changed your &aFly Speed &eto &c'
+# Sent if player gives smaller number
+invalid-number: '&cNumber must be between 0.1 and 1'
+
+# /wspeed Format
+wspeed-format: '&e/wspeed &7(speed) <Number between 0.1-1> <Default speed is 0.2>'
+# Sent to player when they change their fly speed
+set-wspeed: '&eYou have changed your &aWalk Speed &eto &c'
+
+# Sent when a player has their gamemode changed by themselves or by others
+gamemode-change: '&eGamemode has been set to &a{gamemode}'
+# Sent to sender when they change others gamemode
+gamemode-change-others: '&eYou have changed &a{player}''s &eGamemode to &a{gamemode}'
+
+# Gamemode Format
+gamemode-format: '/gmc, /gms, /gmsp, /gma'
+
+# /msg Format
+msg-format: '&e/msg &7(Player) (Message)'
+# /r Format
+reply-format: '&e/r &7(Message)'
+# Message sent to messager when replying but no conversation has taken place
+no-conversation: '&cNo conversation has taken place!'
+
+# Sent when sender executes /discord
+discord-output: '&bDiscord &7: &bhttps://discord.gg/invite-code-here'
+# Sent when sender executes /website
+website-output: '&aWebsite &7: &ahttps://your-link-here'
+
+# /broascast Format
+broadcast-format: '&c/(Broadcast, Alert, Announce) (message)'
+# Broadcast prefix
+broadcast-prefix: '&c&lALERT&7:&f '
+
+# /kill Format
+kill-format: '&e/kill &7(Player)'
+# Sent to target when killed
+player-killed-you: '&eYou have been &cKilled &eby &a'
+# Sent to the sender when they kill someone else
+killed-others: '&eYou have &cKilled &a'
+
+# Sent when a player kills themself via /suicide
+suicide-message: '&eYou have &cKilled &eyourself!'
+
+# Sent when the target has been healed
+target-healed: '&eYou have been &aHealed &eby &a'
+# Sent to Sender when target has been healed
+healed-others: '&eYou have &aHealed '
+# Sent when you heal yourself
+healed-self: '&eYou have &aHealed &eyourself!'
+
+# Sent to target when they are fed
+target-fed: '&eYou have been &aFed &eby &a'
+# Sent to sender when they fed someone else
+fed-others: '&eYou have &aFed '
+# Sent to player who feed themself
+fed-self: '&eYou have &aFed &eyourself!'
+
+# /smite Format
+smite-format: '&e/smite &7(Player)'
+
+# /burn Format
+burn-format: '&e/burn &7(Player)'
+
+# Sent to target when their inventory get's cleared
+target-ci: '&eYour inventory has been &aCleared &eby &c'
+# Sent to sender when clearing someone's inventory
+sender-ci: '&eYou have &acleared &ethe inventory of &c'
+# Sent to player when clearing their own inventory
+self-ci: '&eYou have &acleared &eyour inventory!'
+
+# Sent to sender when teleporting to a player
+tp-msg: '&eYou have teleported to &a'
+# /tp Format
+tp-format: '&e/tp &7(Player)'
+# Sent to sender when teleporting players to themself
+tphere-msg: ' &ehas been teleported to your location!'
+# Color of player name sent to sender when tping other player to themself
+tphere-name-color: '&a'
+# Sent to target when getting tphere'd to another player
+tphere-target: '&eYou have been teleported to &a'
+# /tphere Format
+tphere-format: '&e/tphere &7(Player)'
+
+# Sent when there are no players to /tpall
+tpall-no-players: '&cThere are no players online!'
+# Color of the player count sent when all players get teleported to /tpall executer
+playernum-color: '&a'
+# /tpall Message sent to command executer
+tpall-msg: ' &eplayers have been teleported to you!'
+# Sent to all players teleported because of /tpall
+target-tpall: '&eYou have been teleported to &a'
+
+# Sent to player when toggling godmode off
+god-false: '&aGod-Mode &ehas been set to &cFalse&e!'
+# Sent to player when toggling godmode on
+god-true: '&aGod-Mode &ehas been set to &aTrue&e!'
+# Sent to target when someone else toggles their godmode off
+god-false-byothers: '&aGod-Mode &ehas been set to &cFalse &eby &a'
+# Sent to sender when toggling godmode off for a target
+god-false-other: '&aGod-Mode &ehas been set to &cFalse &efor &a'
+# Sent to target when someone else toggles their godmode on
+god-true-byothers: '&aGod-Mode &ehas been set to &aTrue &eby &a'
+# Sent to sender when toggling godmode on for a target
+god-true-other: '&aGod-Mode &ehas been set to &aTrue &efor &a'
+
+# Sent when item in hand is already repaired, cannot be repaired or there is no item
+invalid-item: '&eThis item is already at &aFull Durability &eor cannot be &aRepaired!'
+# Sent to player when the item in hand has been repaired
+repaired-item: '&eThis item has been fully &aRepaired&e!'
+# Sent to player if there is no item in hand to repair
+no-item: '&eThere is no item &eto &aRepair&e!'
+
+# /nick Format
+nick-format: '&e/nick &7(Nickname) <Player>'
+# Sent to player when nickname has been changed
+nick-changed: '&eYour nickname has been changed to &a'
+# Sent to target whos name was changed by another player
+other-changed-nick: ' &ehas changed your nickname to &a'
+# Player name for other-changed-nick
+nick-name-color: '&a'
+# Sent to sender when changing other players name
+changed-others-nick: '&eYou have changed &a{player}''s &enickname to &a{nick}!'
+# Maximum length for nickname
+nick-max-length: 16

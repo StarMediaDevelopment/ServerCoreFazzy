@@ -1,0 +1,33 @@
+# All permission nodes & commands will be listed here!
+
+/fly - core.command.fly
+/fly (player) - core.command.fly.others
+/fspeed - core.command.fspeed
+/wspeed - core.command.wspeed
+/gmc - core.command.gamemode.creative
+/gms - core.command.gamemode.survival
+/gmsp - core.command.gamemode.spectator
+/gma - core.command.gamemode.adventure
+/gmc, /gms, /gmsp, /gma (player) - core.command.gamemode.others
+/msg (player) (message) - core.command.message
+/r (message) - core.command.reply
+/discord - core.command.discord
+/website - core.command.website
+/kill (player) - core.command.kill.others
+/suicide - core.command.suicide
+/heal (player) - core.command.heal.others
+/heal - core.command.heal
+/feed - core.command.feed
+/feed (player) - core.command.feed.others
+/smite (player) - core.command.smite
+/burn (player) - core.command.burn
+/clearinventory (/ci, /clearinv, /clear) - core.command.clearinv
+/clearinventory[/ci, /clearinv, /clear] (player) - core.command.clearinv.others
+/tp (player) - core.command.tp
+/tphere (player) - core.command.tphere
+/tpall - core.command.tpall
+/god - core.command.god
+/god (Player) - core.command.god.others
+/broadcast (/announce, /alert) - core.command.broadcast
+/repair - core.command.repair
+/repair (Player) - core.command.repair.others
