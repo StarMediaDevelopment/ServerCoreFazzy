@@ -30,4 +30,5 @@
 /god (Player) - core.command.god.others
 /broadcast (/announce, /alert) - core.command.broadcast
 /repair - core.command.repair
-/repair (Player) - core.command.repair.others
+/spawn - core.command.spawn
+/setspawn - core.command.setspawn

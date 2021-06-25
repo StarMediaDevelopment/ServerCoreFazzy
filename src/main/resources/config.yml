@@ -157,3 +157,6 @@ nick-name-color: '&a'
 changed-others-nick: '&eYou have changed &a{player}''s &enickname to &a{nick}!'
 # Maximum length for nickname
 nick-max-length: 16
+
+# Sent when player teleports to the spawn
+teleported-to-spawn: '&eYou have been teleported to the &aSpawn!'
