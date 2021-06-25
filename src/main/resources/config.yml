@@ -159,4 +159,4 @@ changed-others-nick: '&eYou have changed &a{player}''s &enickname to &a{nick}!'
 nick-max-length: 16
 
 # Sent when player teleports to the spawn
-teleported-to-spawn: '&eYou have been teleported to the &aSpawn!'
+tped-to-spawn: '&eYou have been teleported to the &aSpawn!'
