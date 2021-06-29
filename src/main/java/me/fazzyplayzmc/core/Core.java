@@ -52,6 +52,7 @@ public final class Core extends JavaPlugin {
         getCommand("nick").setExecutor(new NickCmd(this));
         getCommand("repair").setExecutor(new RepairCmd(this));
         getCommand("spawn").setExecutor(new SpawnCmd(this));
+        getCommand("setspawn").setExecutor(new SetSpawnCmd(this));
         messageManager = new MessageManager(this);
 
         // Registering Listener

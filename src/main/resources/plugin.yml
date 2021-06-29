@@ -66,6 +66,8 @@ commands:
     description: Repair items in your hand
   spawn:
     description: Teleport to spawn set in config
+  setspawn:
+    description: Set spawn point
 
 
 

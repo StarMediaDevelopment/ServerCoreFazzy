@@ -160,3 +160,5 @@ nick-max-length: 16
 
 # Sent when player teleports to the spawn
 tped-to-spawn: '&eYou have been teleported to the &aSpawn!'
+# Sent when a player sets the spawn location
+set-spawn: '&eSpawn has been set!'
